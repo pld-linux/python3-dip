@@ -1,12 +1,12 @@
 Summary:	Application Framework for Python 3 and PyQt
 Summary(pl.UTF-8):	Szkielet dla aplikacji opartych na Pythonie 3 i PyQt
 Name:		python3-dip
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	GPL v2 with exception or commercial
 Group:		Development/Languages/Python
 Source0:	http://www.riverbankcomputing.com/static/Downloads/dip/dip-gpl-%{version}.tar.gz
-# Source0-md5:	581af6402d37678fe0013e71cab49d48
+# Source0-md5:	7e8dac36e961bf31a5d5dc64db4ad3b6
 URL:		http://www.riverbankcomputing.com/static/Docs/dip/
 BuildRequires:	python3-devel >= 3.2
 BuildRequires:	rpm-pythonprov
