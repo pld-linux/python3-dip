@@ -31,13 +31,11 @@ Ta wersja jest przeznaczona dla Pythona 3.x.
 %setup -q -n dip-gpl-%{version}
 
 %build
-%{__python3} setup.py build
+%py3_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python3} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py3_install
 
 # distinguish from python 2 version
 mv $RPM_BUILD_ROOT%{_bindir}/dip-automate{,-3}
