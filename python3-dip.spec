@@ -10,7 +10,7 @@ Source0:	http://www.riverbankcomputing.com/static/Downloads/dip/dip-gpl-%{versio
 URL:		http://www.riverbankcomputing.com/static/Docs/dip/
 BuildRequires:	python3-devel >= 3.2
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 Requires:	python3-PyQt4 >= 4.7.5
 Requires:	QtGui >= 4.6
